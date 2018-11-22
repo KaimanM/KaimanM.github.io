@@ -1,0 +1,418 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 3000px;
+}
+
+.headercontainer {
+  width: 1060px;
+  margin: 0 auto;
+  height: 50px;
+  /* border: 1px solid red; */
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+/* header::after {
+  content: '';
+  display: table;
+  clear: both;
+} */
+
+.logo {
+  float: left;
+  font-size: 25px;
+  padding-bottom: 4px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+h1 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  text-align: center;
+  height: 50px;
+  /* border: 1px solid blue; */
+  line-height: 50px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  text-transform: uppercase;
+
+
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url('https://c.pxhere.com/photos/72/52/code_code_editor_coding_computer_data_developing_development_ethernet-910940.jpg!d');
+  background-size: cover;
+}
+
+.bannerText {
+  width: 1060px;
+  height: 600px;
+  /* background-color: green; */
+  margin: auto;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.6), 0px 8px 13px rgba(0,0,0,0.2), 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+.bannerText h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 175px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  padding: 0;
+  border-bottom: 1px solid white;
+  display: inline-block;
+}
+.bannerText h2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+  margin-top: 10px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  padding: 0;
+  display: block;
+}
+
+.about {
+    width: 1060px;
+    height: 600px;
+    /* background-color: green; */
+    margin: auto;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.portrait {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin: 0 auto;
+	border-radius: 50%;
+  margin-top: 25px;
+	box-shadow: 0 0 0 .4em rgba(0, 0, 0, 0.85);
+	margin-left: 50px;
+	float: left;
+}
+
+.about h1 {
+  color: rgba(0, 0, 0, 1);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	height: 30px;
+	/* border-bottom: 1px solid black; */
+	margin-top: 15px;
+	margin-bottom: 10px;
+  display: inline-block;
+
+  color: rgba(0, 0, 0, 0.75);
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.05);
+}
+
+.about p {
+  /* border: 1px solid green; */
+  display: inline-block;
+  width: 780px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.boxHolders {
+  display: block;
+  padding-top: 100px;
+}
+
+.svgImgs {
+  width: 40px;
+  height: 40px;
+}
+
+#boxText {
+  width: 480px;
+  height: 190px;
+}
+
+.leftbox {
+  height: 250px;
+  width: 500px;
+  /* background-color: yellow; */
+  display: inline-block;
+}
+
+.rightbox {
+  height: 250px;
+  width: 500px;
+  /* background-color: purple; */
+  display: inline-block;
+}
+
+.cv {
+    width: 1060px;
+    height: 1500px;
+
+    margin: auto;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.uolLogo {
+	height: 360px;
+	width: 192px;
+	display: inline-block;
+	margin: 0 auto;
+
+  margin-top: 0px;
+	/* box-shadow: 0 0 0 .4em rgba(0, 0, 0, 0.85); */
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+	margin-left: 50px;
+	float: left;
+}
+
+.cv h1 {
+  color: rgba(0, 0, 0, 1);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	height: 30px;
+	/* border-bottom: 1px solid black; */
+	margin-top: 15px;
+	margin-bottom: 10px;
+  display: inline-block;
+
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.6), 0px 8px 13px rgba(0,0,0,0.2), 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+.cv h2 {
+  color: rgba(0, 0, 0, 1);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	height: 18px;
+	border-bottom: 1px solid black;
+	margin-top: 15px;
+	margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 185px;
+  /* border-left: 1px solid red; */
+
+}
+
+.cv h3 {
+  color: rgba(0, 0, 0, 1);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	height: 18px;
+	border-bottom: 1px solid black;
+	margin-top: 15px;
+	margin-bottom: 10px;
+  display: inline-block;
+
+
+}
+
+.cv ul {
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: inside;
+  /* border: 1px solid red; */
+  width: 780px;
+  display: inline-block;
+  line-height: 1.05;
+  height: 314px;
+}
+
+.cv li {
+  margin: 8px 0;
+}
+
+.cv li .bold {
+  display: inline;
+  font-weight: 600;
+}
+
+#bmaName {
+  margin-right: 272px;
+}
+
+hr {
+  width: 80%;
+  border-color: gray;
+  opacity: 0.3;
+}
+
+.cvContainer {
+  background-color: #e1e1e1;
+}
+
+.workExp {
+  float: left;
+  margin-left: 125px;
+}
+
+#xpList {
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: inside;
+  /* border: 1px solid red; */
+  width: 780px;
+  display: inline-block;
+  line-height: 1.05;
+  height: 150px;
+}
+
+.projectContainer {
+
+}
+
+.projects {
+    width: 1060px;
+    height: 1000px;
+    /* background-color: green; */
+    margin: auto;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.projects h1 {
+
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 15px;
+	margin-bottom: 10px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.05);
+}
+
+.projectTemplate {
+  /* background-color: yellow; */
+  width: 1060px;
+  height: 300px;
+}
+
+.projectTemplate h2 {
+  color: rgba(0, 0, 0, 1);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	/* font-weight: 400; */
+	height: 18px;
+	border-bottom: 1px solid black;
+	margin-top: 15px;
+	margin-bottom: 10px;
+  float:left;
+  margin-right: 185px;
+  font-weight: 600;
+
+}
+
+.projectTemplate p {
+  display: inline-block;
+  width: 875px;
+  /* height: 250px; */
+  /* color: red; */
+  /* border: 1px solid green; */
+  /* margin-left: -60px; */
+  text-align: left;
+  line-height: 1.1;
+  /* font-size: 20px; */
+}
+
+.projectTemplate ul {
+    text-align: left;
+    list-style-type: circle;
+    list-style-position: inside;
+    /* border: 1px solid red; */
+    width: 780px;
+    display: inline-block;
+
+    line-height: 1.05;
+    height: 314px;
+  }
+
+  #projectList {
+    text-align: left;
+    list-style-type: circle;
+    list-style-position: inside;
+    /* border: 1px solid red; */
+    width: 875px;
+    display: inline-block;
+    line-height: 1.05;
+    height: 115px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+.projectPicture {
+  width: 168px;
+  height: 295px;
+  float: left;
+  /* border: 1px solid red; */
+}
+
+
+.contactContainer {
+  background-color: #e1e1e1;
+  position: relative;
+}
+
+.contactMe {
+    width: 1060px;
+    height: 340px;
+    background-color: green;
+    margin: auto;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.textBox {
+  width: 600px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.emailBox {
+  display: block;
+  margin: 0 auto;
+}
+
+/* #bmaName, #bmaDate {
+  color: red;
+  padding-top: 20px;
+} */
