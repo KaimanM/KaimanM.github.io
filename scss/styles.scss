@@ -1,0 +1,73 @@
+// Variable Overrides
+
+$theme-colors: (
+  "primary": #0ab931
+);
+
+$body-bg: #ededed;
+
+.jumbotron {
+    background-color: #ffffff !important;
+    border-top: 3px solid rgb(219, 219, 219);
+    background-image: url("https://c.pxhere.com/photos/72/52/code_code_editor_coding_computer_data_developing_development_ethernet-910940.jpg!d");
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.6), 0px 8px 13px rgba(0,0,0,0.2), 0px 18px 23px rgba(0,0,0,0.2);
+    top: -3px;
+}
+
+
+
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.jumbotron h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  padding-top: 125px;;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+
+.jumbotron p {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  display: block;
+
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.svgImgs {
+  width: 40px;
+  height: 40px;
+}
+
+body {
+  height: 5000px;
+}
+
+hr {
+  width: 80%;
+  border-color: gray;
+ opacity: 0.3;
+}
+
+//
+// nav ul {
+//   padding-right: 20vw;
+// }
